@@ -1,0 +1,41 @@
+databaseChangeLog:
+
+  - changeSet:
+      id: Liquibase
+      author: isaias-filipe
+      changes:
+        - sqlFile:
+            encoding: utf8
+            path: sqls/cria-tabela-google-analytics.sql
+            relativeToChangelogFile: true
+            dbms: postgresql
+            
+  - changeSet:
+      id: Liquibase2
+      author: isaias-filipe
+      changes:
+        - sqlFile:
+            encoding: utf8
+            path: sqls/cria-tabela-google-analytics2.sql
+            relativeToChangelogFile: true
+            dbms: postgresql
+
+  - changeSet:
+      id: 20220418-criacao-da-tabela-pesquisa
+      author: isaias-filipe
+      changes:
+        - sqlFile:
+            encoding: utf8
+            path: sqls/cria-tabela-google-analytics-18-04-2022-v1.sql
+            relativeToChangelogFile: true
+            dbms: postgresql
+            
+  - changeSet:
+      id: 20220419-criacao-da-tabela-pesquisa
+      author: isaias-filipe
+      changes:
+        - sqlFile:
+            encoding: utf8
+            path: sqls/cria-tabela-google-analytics-19-04-2022-v2.sql
+            relativeToChangelogFile: true
+            dbms: postgresql

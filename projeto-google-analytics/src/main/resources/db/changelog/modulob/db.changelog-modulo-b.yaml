@@ -1,0 +1,11 @@
+databaseChangeLog:
+
+  - changeSet:
+      id: 20220413-modelo-de-changeset
+      author: isaias-filipe
+      changes:
+        - sqlFile:
+            encoding: utf8
+            path: sqls/20220413-modelo-de-changeset.sql
+            relativeToChangelogFile: true
+            dbms: postgresql

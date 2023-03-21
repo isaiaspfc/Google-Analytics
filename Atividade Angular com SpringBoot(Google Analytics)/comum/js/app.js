@@ -1,0 +1,1 @@
+angular.module("exercicioAngularJS", ["ngMessages", "ui", "ngRoute"]);

@@ -1,0 +1,9 @@
+mega:
+  configuracao:
+    viewId: ${NUMERO_DO_VIEW_ID}
+    keyFileLocation: ${CAMINHO_DO_ARQUIVO_KEY}
+      
+spring:
+    application:
+        name: ${NOME_DE_APLICACAO}
+
